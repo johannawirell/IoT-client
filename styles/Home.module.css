@@ -1,0 +1,91 @@
+.container {
+  padding: 0 2rem;
+  background-color: black;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.value, .procentage {
+  font-size: 3rem;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.procentage {
+  color:  rgba(0,173,244,1.00);
+}
+
+.procontainer {
+  background-color: rgb(108, 104, 104);
+  height: 20px;
+}
+
+.promesure {
+  background-color: rgba(0,173,244,1.00);
+  height: 20px;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 0 20px;
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  background-color: rgb(32, 31, 31);
+}
+
+.status {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.status >* {
+  padding: 5px;
+}
+
+.healty, .unhealty {
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.healty {
+  color: green;
+  border: green solid 1px;
+}
+
+.unhealty {
+  color: red;
+  border: red solid 1px;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
